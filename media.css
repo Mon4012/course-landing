@@ -1,0 +1,311 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+  .swiper-slide > div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .container1 a {
+    padding: 20px;
+  }
+
+  .swiper-slide1_h1,
+  .swiper-slide2_h1 {
+    font-size: 50px;
+  }
+
+  .swiper-slide1_h3 {
+    font-size: 20px;
+  }
+
+  /* -------------im gracna 2,3,4,5 cont hamar */
+  .container2_left {
+    width: 100%;
+  }
+
+  .container2_right {
+    width: 100%;
+    height: 500px;
+  }
+
+  .container2 {
+    flex-wrap: wrap;
+  }
+  .container3 {
+    flex-wrap: wrap;
+  }
+  .container3_left,
+  .container3_right {
+    width: 100%;
+  }
+
+  .container3_but {
+    margin: 20px;
+  }
+  .container4_h3 {
+    font-size: 30px;
+  }
+
+  .container4_h1 {
+    font-size: 70px;
+  }
+  .container5 {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container5 > div {
+    width: 40%;
+    padding: 10px;
+  }
+  .container6 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container6_left {
+    width: 100%;
+  }
+
+  .container6_right {
+    width: 100%;
+  }
+  .container7_h3 {
+    font-size: 30px;
+  }
+
+  .container7_h1 {
+    font-size: 65px;
+  }
+
+  .container8 > div {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container9_h3 {
+    font-size: 40px;
+  }
+
+  .container9_h1 {
+    font-size: 70px;
+  }
+
+  .container10 > div {
+    width: 50%;
+    flex-wrap: wrap;
+  }
+
+  /* ---------------------------------- */
+}
+
+@media screen and (max-width: 992px) {
+  .swiper {
+    height: 50vw;
+  }
+
+  .container {
+    width: 720px;
+  }
+
+  .container2_left {
+    width: 100%;
+  }
+
+  .container2_right {
+    width: 100%;
+    height: 500px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container1 nav {
+    width: 100%;
+    background-color: rgb(88, 87, 87);
+  }
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .container1Nav_toggle {
+    height: 300px !important;
+  }
+
+  .container1 nav {
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    transition: all 0.5s;
+  }
+
+  .btn1_slide_div {
+    margin-top: 100px !important;
+  }
+  .hamburger {
+    display: block !important;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+
+  .swiper-slide1_h3,
+  .swiper-slide2_h3 {
+    display: none;
+  }
+  .swiper-slide1_h5,
+  .swiper-slide2_h5 {
+    display: none;
+  }
+  .swiper-slide1_h1,
+  .swiper-slide2_h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn1_slide2 {
+    margin: 0;
+  }
+
+  .swiper-slide1_central {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .btn1_slide_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-rt1 .swiper-button-next {
+    left: 5px;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 5px;
+  }
+
+  .container4_h3 {
+    font-size: 20px;
+  }
+
+  .container4_h1 {
+    font-size: 60px;
+  }
+  .container6_right h2 {
+    font-size: 20px;
+  }
+
+  .container6_right h5 {
+    font-size: 40px;
+  }
+
+  .container7_h3 {
+    font-size: 20px;
+  }
+
+  .container7_h1 {
+    font-size: 50px;
+  }
+  .container8 > div {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container9_h3 {
+    font-size: 20px;
+  }
+
+  .container9_h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .btn1_slide_div {
+    margin-top: 30px !important;
+  }
+
+  .btn1_slide2 {
+    padding: 10px 20px;
+  }
+
+  .btn2_slide2 {
+    padding: 10px 20px;
+  }
+
+  /* --------------im gracna 2 conteneri hamar----- */
+
+  .container2_right_icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container2_right_icons > div {
+    width: 100%;
+  }
+
+  .container2_right h1 {
+    font-size: 60px;
+  }
+  .container4_h3 {
+    font-size: 10px;
+  }
+
+  .container4_h1 {
+    font-size: 50px;
+  }
+
+  .container5 > div {
+    height: auto;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .container6_right_icons h3 {
+    padding: 10px !important;
+  }
+  .container7_h3 {
+    font-size: 20px;
+  }
+
+  .container7_h1 {
+    font-size: 45px;
+  }
+
+  .container8 > div {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .container9_h3 {
+    font-size: 15px;
+  }
+
+  .container9_h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
